@@ -36,3 +36,5 @@ src/Controller/RegistrationController.php
 src/Entity/Users.php
 src/Form/RegistrationFormType.php
 Nous pourrons ensuite modifier les fichiers en fonction du contexte de notre site.
+________________________________________________________________________________________________
+users.sql => Base de données : `db_symfony6` =>  Structure de la table `users`
