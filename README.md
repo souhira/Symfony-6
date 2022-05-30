@@ -15,11 +15,12 @@ Le nom du contrôleur qui contiendra les routes de connexion et déconnexion (Se
 La création ou non d'une route de déconnexion (/logout)
 Après l'exécution de la commande, les fichiers suivants auront été créés ou modifiés
 
-config/packages/security.yaml
-src/Controller/SecurityController.php
-src/Security/UsersAuthenticator.php
-templates/security/login.html.twig
-Création du formulaire d'inscription
+*config/packages/security.yaml           
+*src/Controller/SecurityController.php         
+*src/Security/UsersAuthenticator.php          
+*templates/security/login.html.twig         
+*Création du formulaire d'inscription      
+
 Pour créer le formulaire d'inscription sur le site, nous utiliserons la commande
 
 symfony console make:registration-form
@@ -31,10 +32,11 @@ Veut-on envoyer un email aux utilisateurs pour activer leur compte
 Veut-on connecter automatiquement les utilisateurs après leur inscription
 Après l'exécution de la commande, les fichiers suivants auront été créés ou modifiés
 
-config/packages/security.yaml
-src/Controller/RegistrationController.php
-src/Entity/Users.php
-src/Form/RegistrationFormType.php
+*config/packages/security.yaml                
+*src/Controller/RegistrationController.php           
+*src/Entity/Users.php            
+*src/Form/RegistrationFormType.php         
+
 Nous pourrons ensuite modifier les fichiers en fonction du contexte de notre site.
 ________________________________________________________________________________________________
 users.sql => Base de données : `db_symfony6` =>  Structure de la table `users`
